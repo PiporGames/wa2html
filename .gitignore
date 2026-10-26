@@ -1,0 +1,29 @@
+# Solo se publican los archivos revisados; los chats son privados.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/whatsapp_html.py
+!/viewer.html
+
+# Protección adicional si se autorizan nuevas carpetas en el futuro.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.zip
+*.html
+!/viewer.html
+*.txt
+!/requirements.txt
+*.tmp
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
